@@ -47,16 +47,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/oxygen_ov12a_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/oxygen_ov12a_sunny_chromatix.xml \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/oxygen_s5k5e8_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/oxygen_s5k5e8_ofilm_chromatix.xml \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/oxygen_s5k5e8_qtech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/oxygen_s5k5e8_qtech_chromatix.xml \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib/hw/fingerprint.fpc.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.fpc.msm8953.so \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib/hw/fingerprint.goodix.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.goodix.msm8953.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_fpc_tac_shared.so \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib/libgf_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_algo.so \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_ca.so \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_hal.so \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib/libgoodixfingerprintd_binder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgoodixfingerprintd_binder.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/hw/consumerir.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.msm8953.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/hw/fingerprint.fpc.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc.msm8953.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/hw/fingerprint.goodix.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.msm8953.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib64/hw/fingerprint.goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_fpc_tac_shared.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/libgf_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_algo.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
