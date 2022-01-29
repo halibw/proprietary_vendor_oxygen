@@ -580,5 +580,4 @@ PRODUCT_PACKAGES += \
     PowerOffAlarm \
     TimeService \
     ims \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    chargeonlymode
+    manifest_android.hardware.drm@1.3-service.widevine
