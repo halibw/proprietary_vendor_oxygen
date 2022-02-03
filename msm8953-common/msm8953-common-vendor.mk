@@ -533,4 +533,5 @@ PRODUCT_PACKAGES += \
     IWlanService \
     PowerOffAlarm \
     TimeService \
-    ims
+    ims \
+    manifest_android.hardware.drm@1.3-service.widevine
