@@ -51,7 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/hw/consumerir.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.msm8953.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/hw/fingerprint.fpc.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc.msm8953.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/hw/fingerprint.goodix.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.msm8953.so \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib64/hw/fingerprint.goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_fpc_tac_shared.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/libgf_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_algo.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
