@@ -114,7 +114,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/acdbdata/Forte/Forte_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_General_cal.acdb \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Global_cal.acdb \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/acdbdata/Forte/Forte_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Handset_cal.acdb \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/acdbdata/Forte/Forte_Hdmi_cal.acbd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Hdmi_cal.acbd \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Headset_cal.acdb \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Speaker_cal.acdb \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
@@ -275,7 +275,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libchromatix_ov12a10_arc_4k_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_arc_4k_video_dw9763.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libchromatix_ov12a10_arc_default_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_arc_default_video_dw9763.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libchromatix_ov12a10_arc_hfr_60_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_arc_hfr_60_dw9763.so \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib/libchromatix_ov12a10_arc_zsl_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_arc_zsl_video_dw9763.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libchromatix_oxygen_imx386_4K_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_oxygen_imx386_4K_preview.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libchromatix_oxygen_imx386_4K_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_oxygen_imx386_4K_video.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libchromatix_oxygen_imx386_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_oxygen_imx386_common.so \
