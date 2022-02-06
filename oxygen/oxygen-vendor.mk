@@ -45,14 +45,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/oxygen/proprietary/lib64/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.imscmservice@2.0.so \
     vendor/xiaomi/oxygen/proprietary/lib64/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.imscmservice@2.1.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/hw/consumerir.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.msm8953.so \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib64/hw/fingerprint.fpc.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc.msm8953.so \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib64/hw/fingerprint.goodix.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.msm8953.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib64/hw/goodixfingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/goodixfingerprint.default.so \
     vendor/xiaomi/oxygen/proprietary/lib64/lib-imscamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imscamera.so \
     vendor/xiaomi/oxygen/proprietary/lib64/lib-imsvideocodec.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imsvideocodec.so \
     vendor/xiaomi/oxygen/proprietary/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imsvt.so \
     vendor/xiaomi/oxygen/proprietary/lib64/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imsvtextutils.so \
     vendor/xiaomi/oxygen/proprietary/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imsvtutils.so \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib64/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_fpc_tac_shared.so \
     vendor/xiaomi/oxygen/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
     vendor/xiaomi/oxygen/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     vendor/xiaomi/oxygen/proprietary/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdiag_system.so \
@@ -67,6 +65,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/oxygen/proprietary/lib64/librcc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/librcc.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/libsoftkeymaster-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoftkeymaster-v27.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/libsoftkeymasterdevice-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoftkeymasterdevice-v27.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0.so \
     vendor/xiaomi/oxygen/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/xiaomi/oxygen/proprietary/lib64/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/xiaomi/oxygen/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.imsrtpservice@1.0.so \
@@ -197,6 +197,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/oxygen/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
     vendor/xiaomi/oxygen/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
     vendor/xiaomi/oxygen/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/xiaomi/oxygen/proprietary/vendor/firmware/goodix_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware.bin \
     vendor/xiaomi/oxygen/proprietary/vendor/firmware/wlan/prima/WCNSS_cfg.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/xiaomi/oxygen/proprietary/vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.dpm.api@1.0.so \
@@ -814,6 +815,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/vendor.qti.hardware.data.iwlan@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.iwlan@1.0.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.latency@1.0.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.qmi@1.0.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fm@1.0.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/vendor.qti.hardware.radio.am@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.am@1.0.so \
