@@ -110,7 +110,7 @@ LensInfo : Information of the lens present in the module.
       <FNumber>2.2</FNumber>
       <TotalFocusDistance>2.64</TotalFocusDistance>
       <HorizontalViewAngle>66.2</HorizontalViewAngle>
-      <VerticalViewAngle>52.1</VerticalViewAngle>
+      <VerticalViewAngle>78.3</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
@@ -136,8 +136,8 @@ LensInfo : Information of the lens present in the module.
       <FocalLength>3.81</FocalLength>
       <FNumber>2.2</FNumber>
       <TotalFocusDistance>2.64</TotalFocusDistance>
-      <HorizontalViewAngle>66.0</HorizontalViewAngle>
-      <VerticalViewAngle>52.0</VerticalViewAngle>
+      <HorizontalViewAngle>66.2</HorizontalViewAngle>
+      <VerticalViewAngle>78.3</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
@@ -163,8 +163,8 @@ LensInfo : Information of the lens present in the module.
       <FocalLength>4.73</FocalLength>
       <FNumber>2.2</FNumber>
       <TotalFocusDistance>1.9</TotalFocusDistance>
-      <HorizontalViewAngle>64.1</HorizontalViewAngle>
-      <VerticalViewAngle>51.6</VerticalViewAngle>
+      <HorizontalViewAngle>66.2</HorizontalViewAngle>
+      <VerticalViewAngle>78.3</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
@@ -188,8 +188,8 @@ LensInfo : Information of the lens present in the module.
       <FocalLength>3.14</FocalLength>
       <FNumber>2.0</FNumber>
       <TotalFocusDistance>1.97</TotalFocusDistance>
-      <HorizontalViewAngle>68.5</HorizontalViewAngle>
-      <VerticalViewAngle>42.2</VerticalViewAngle>
+      <HorizontalViewAngle>70.5</HorizontalViewAngle>
+      <VerticalViewAngle>84.7</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
@@ -213,8 +213,8 @@ LensInfo : Information of the lens present in the module.
       <FocalLength>3.14</FocalLength>
       <FNumber>2.0</FNumber>
       <TotalFocusDistance>1.97</TotalFocusDistance>
-      <HorizontalViewAngle>68.5</HorizontalViewAngle>
-      <VerticalViewAngle>42.2</VerticalViewAngle>
+      <HorizontalViewAngle>70.5</HorizontalViewAngle>
+      <VerticalViewAngle>84.7</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
