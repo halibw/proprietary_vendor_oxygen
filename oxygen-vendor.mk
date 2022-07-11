@@ -124,7 +124,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_workspaceFile.qwsp \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/cne/profileMwqem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileMwqem.xml \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
